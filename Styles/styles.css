@@ -4,6 +4,35 @@
   box-sizing: border-box;
 }
 
+a:link,
+a:visited {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.048);
+  border-radius: 10px;
+  padding: 0px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px;
+  color: rgb(126, 126, 126);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+a:hover,
+a:active {
+  background: rgba(128, 128, 128, 0.377);
+  border: 1px;
+  border-color: rgb(105, 105, 105);
+  border-style: solid;
+  color: black;
+}
+/*
+.Roboto {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+*/
+
 .center {
   display: flex;
   align-items: center;
@@ -43,19 +72,15 @@ body {
   box-shadow: 2px;
 }
 
-a:link a:visited {
-  text-decoration: none;
-}
-
-.Roboto {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-}
-
 .profielbild {
   width: 200px;
   border-radius: 100%;
 }
 
-.logo {
-  width: 10px;
+.iconsli {
+  width: 11px;
+}
+
+.iconsgh {
+  width: 25px;
 }
