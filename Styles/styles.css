@@ -20,7 +20,7 @@ body {
 .tags {
   border-bottom: solid;
   border-width: 1.5px;
-  border-color: rgb(218, 214, 214);
+  border-color: rgba(218, 214, 214, 0.301);
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -32,7 +32,7 @@ body {
 }
 
 .button {
-  background-color: rgb(235, 231, 231);
+  background-color: rgba(0, 0, 0, 0.048);
   border-radius: 10px;
   padding: 0px;
   width: 80px;
@@ -50,7 +50,5 @@ body {
 }
 
 .logo {
-  width: 80px;
-  display: flex;
-  justify-content: space-between;
+  width: 10px;
 }
