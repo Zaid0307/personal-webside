@@ -12,23 +12,24 @@
 }
 
 body {
+  background-image: url(../images/background.jpg);
+  background-attachment: fixed;
   margin: 0;
   padding: 0;
 }
 
 /*Flexbox https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
 .tags {
-  border-bottom: solid;
-  border-width: 1.5px;
-  border-color: rgba(218, 214, 214, 0.301);
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+  flex-direction: column;
   list-style: none;
-  align-items: flex-end;
-  height: 100px;
-  padding-left: 10px;
-  padding-bottom: 2px;
+  gap: 10px;
+}
+
+.navleiste {
+  position: fixed;
+  right: 0;
+  top: 50%;
 }
 
 .button {
@@ -37,9 +38,15 @@ body {
   padding: 0px;
   width: 80px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  box-shadow: 2px;
 }
+
+a:link a:visited {
+  text-decoration: none;
+}
+
 .Roboto {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
