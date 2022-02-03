@@ -4,16 +4,11 @@
   box-sizing: border-box;
 }
 
-header {
-  border-width: 1px;
-  border-color: black;
-  border-bottom: solid;
-  background-color: rgb(132, 132, 139);
-}
-
 .center {
   display: flex;
-  padding-top: 20px;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10px;
 }
 
 body {
@@ -21,15 +16,41 @@ body {
   padding: 0;
 }
 
-.Roboto {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
+/*Flexbox https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+.tags {
+  border-bottom: solid;
+  border-width: 1.5px;
+  border-color: rgb(218, 214, 214);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  align-items: flex-end;
+  height: 100px;
+  padding-left: 10px;
+  padding-bottom: 2px;
 }
 
-body {
-  background-color: rgba(129, 110, 110, 0.411);
+.button {
+  background-color: rgb(235, 231, 231);
+  border-radius: 10px;
+  padding: 0px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Roboto {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
 .profielbild {
   width: 200px;
   border-radius: 100%;
+}
+
+.logo {
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
 }
