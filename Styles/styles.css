@@ -4,6 +4,18 @@
   box-sizing: border-box;
 }
 
+header {
+  border-width: 1px;
+  border-color: black;
+  border-bottom: solid;
+  background-color: rgb(132, 132, 139);
+}
+
+.center {
+  display: flex;
+  padding-top: 20px;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -12,11 +24,12 @@ body {
 .Roboto {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
+
 body {
   background-color: rgba(129, 110, 110, 0.411);
 }
 
 .profielbild {
-  width: 350px;
-  border-radius: 10%;
+  width: 200px;
+  border-radius: 100%;
 }
