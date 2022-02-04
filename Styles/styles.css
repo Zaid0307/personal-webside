@@ -7,15 +7,7 @@
 a:link,
 a:visited {
   text-decoration: none;
-  background-color: rgba(0, 0, 0, 0.048);
-  border-radius: 10px;
-  padding: 0px;
-  width: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 2px;
-  color: rgb(126, 126, 126);
+  color: rgb(100, 99, 99);
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
@@ -38,13 +30,6 @@ main {
   margin: 10%;
 }
 
-.center {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding-top: 10px;
-}
-
 body {
   background-image: url(../images/background.jpg);
   background-attachment: fixed;
@@ -53,45 +38,105 @@ body {
 }
 
 /*Flexbox https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
-.tags {
+
+.navleft {
   display: flex;
   flex-direction: column;
-  list-style: none;
-  gap: 10px;
+  align-content: flex-start;
+  position: fixed;
+  left: 0;
+  bottom: 10%;
 }
 
 .nav-list {
   position: fixed;
   right: 0;
   top: 50%;
-  margin-right: 2%;
 }
-
+.tags {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
 .button {
-  background-color: rgba(0, 0, 0, 0.048);
-  border-radius: 10px;
+  /*background-color: rgba(0, 0, 0, 0.048);*/
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(208, 219, 219, 0.404);
+  background-color: rgba(189, 183, 183, 0.404);
+  border-radius: 13px 0px 0px 0px;
   padding: 0px;
   width: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 10px;
+}
+
+.button1 {
+  /*background-color: rgba(0, 0, 0, 0.048);*/
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(208, 219, 219, 0.404);
+  background-color: rgba(189, 183, 183, 0.404);
+  border-radius: 0px 0px 0px 13px;
+  padding: 0px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 10px;
+}
+
+.button_icon {
+  background-color: rgba(0, 0, 0, 0.048);
+  border-left: 10px;
+  padding: 0px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   box-shadow: 2px;
+  border-radius: 50px 50px 0px 0px;
+}
+.button_icon1 {
+  background-color: rgba(0, 0, 0, 0.048);
+  border-left: 10px;
+  padding: 0px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px;
+  border-radius: 0px 0px 50px 50px;
 }
 
 .profielbild {
   width: 300px;
   border-radius: 100%;
 }
-/*
-.box {
-  box-shadow: 10px 20px 15px silver;
-  border-radius: 1px;
-  padding: 5%;
-}
-*/
+
+/*box means the box aoround the Text*/
 .box {
   background: white;
   box-shadow: 10px 20px 15px silver;
   border-radius: 1px;
   padding: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text_left {
+  padding-left: 2%;
+}
+
+.logoleft {
+  width: 20px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10px;
 }
