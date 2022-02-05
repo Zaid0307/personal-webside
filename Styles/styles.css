@@ -58,8 +58,9 @@ main {
 .symbol {
   display: flex;
   flex-direction: column;
-
+}
 /* mid section Symbol */
+
 .hobby {
   display: flex;
   flex-direction: column;
@@ -67,8 +68,7 @@ main {
   align-content: center;
   background-color: rgba(255, 255, 255, 0.95);
 }
-.hobby1 {
-}
 .symbol {
   display: flex;
   flex-direction: row;
+}
