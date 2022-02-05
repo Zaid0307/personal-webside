@@ -67,17 +67,30 @@ main {
 }
 .wgbox {
   display: flex;
-  background-color: azure;
+  background-color: rgb(255, 255, 255);
   width: 100%;
 }
 .tittlewg {
   font-size: 1rem;
   width: 100%;
+  flex-shrink: 3;
+}
+.imgwg {
+  background-image: url(/images/WGlogo.png);
+  width: 70px;
+  height: 70px;
+  background-size: contain;
+  margin: 0px 0px 40px 20px;
 }
 .infowg {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   width: 100%;
+  padding-left: 2%;
 }
+
 .wgbox ul {
   list-style-type: none;
+}
+.wgbox li {
+  gap: 3px;
 }
