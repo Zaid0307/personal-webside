@@ -4,6 +4,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 html {
   font-family: "Open Sans Condensed", sans-serif;
 }
@@ -60,6 +61,7 @@ main {
   width: 100%;
 }
 /* top section till the first p tag*/
+
 /*curriculum vitae*/
 .cvhead {
   background-color: white;
@@ -79,6 +81,8 @@ main {
   font-size: 1rem;
   width: 100%;
   flex-shrink: 3;
+  border-right: 1px solid;
+  border-top: 1px solid;
 }
 .imgwg {
   background-image: url(/images/WGlogo.png);
@@ -99,3 +103,4 @@ main {
 .wgbox li {
   gap: 3px;
 }
+/*curriculum vitae end*/
