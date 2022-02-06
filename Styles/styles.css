@@ -9,8 +9,8 @@ html {
   font-family: "Open Sans Condensed", sans-serif;
 }
 body {
-  background-image: url(../images/background.jpg);
-  background-size: cover;
+  background-image: url(../images/background.jpeg);
+  background-size: contain;
 }
 /* top section till the first p tag*/
 main {
