@@ -9,7 +9,7 @@ html {
   font-family: "Open Sans Condensed", sans-serif;
 }
 body {
-  background-image: url(/images/background.jpg);
+  background-image: url(../images/background.jpg);
   background-size: cover;
 }
 /* top section till the first p tag*/
@@ -85,7 +85,7 @@ main {
   border-top: 1px solid;
 }
 .imgwg {
-  background-image: url(/images/WGlogo.png);
+  background-image: url(../images/WGlogo.png);
   width: 70px;
   height: 70px;
   background-size: contain;
