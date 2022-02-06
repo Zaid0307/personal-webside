@@ -28,7 +28,7 @@ main {
   margin-top: 20%;
 }
 
-.container img {
+.container .profielpic {
   border-radius: 100%;
   height: 350px;
   margin-top: -175px;
@@ -71,7 +71,7 @@ main {
 .vccontainer {
   width: 100%;
 }
-/* WG/Conduent info start here*/
+/* WG/Condiinfo start here*/
 .wgbox {
   display: flex;
   background-color: rgb(255, 255, 255);
@@ -82,8 +82,8 @@ main {
   font-size: 1rem;
   width: 100%;
   flex-shrink: 3;
-  border-right: 1px solid;
-  border-top: 1px solid;
+  border-right: 1px solid rgba(215, 213, 213, 0.539);
+  border-top: 1px solid rgba(215, 213, 213, 0.539);
 }
 .imgwg {
   background-image: url(../images/WGlogo.png);
@@ -97,6 +97,7 @@ main {
   width: 100%;
   padding-left: 2%;
   text-overflow: ellipsis;
+  border-bottom: 1px solid rgba(215, 213, 213, 0.539);
 }
 
 .wgbox ul {
@@ -109,8 +110,38 @@ main {
   font-size: 1rem;
   width: 100%;
   flex-shrink: 3;
-  border-right: 1px solid;
+  border-right: 1px solid rgba(215, 213, 213, 0.539);
 }
 /* WG /Conduent info End here*/
 
 /*curriculum vitae end*/
+/*Linkedin and Github button start*/
+
+.fixlogo {
+  width: auto;
+}
+.buttonlogo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 10px;
+  background-color: rgba(215, 213, 213, 0.197);
+  position: fixed;
+  bottom: 10%;
+  width: 60px;
+  border-radius: 0px 20px 20px 0px;
+}
+.linkedin {
+  margin-top: 10px;
+}
+
+.github {
+  margin-bottom: 10px;
+}
+.githublogo {
+  width: 30px;
+}
+
+.linkedinlogo {
+  width: 30px;
+}
