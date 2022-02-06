@@ -61,6 +61,11 @@ main {
 }
 /* top section till the first p tag*/
 /*curriculum vitae*/
+.cvhead {
+  background-color: white;
+  padding: 3px 10px 0px 10px;
+  border-radius: 20px 20px 0px 0px;
+}
 .vccontainer {
   background-color: aqua;
   width: 100%;
