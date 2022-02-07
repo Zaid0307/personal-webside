@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;1,300&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -20,7 +21,7 @@ main {
   align-items: center;
   justify-content: center;
 }
-.container {
+.content {
   display: flex;
   align-items: center;
   align-content: center;
@@ -28,7 +29,7 @@ main {
   margin-top: 20%;
 }
 
-.container .profielpic {
+.content__box-profielpic {
   border-radius: 50%;
   width: 350px;
   margin-top: -175px;
@@ -36,7 +37,7 @@ main {
     rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 
-.container .background {
+.content__box {
   background-color: rgba(255, 255, 255, 0.95);
   margin-top: 175px;
   border-radius: 20px 20px 0px 0px;
@@ -46,80 +47,101 @@ main {
   margin-left: 10%;
   margin-right: 10%;
 }
-.container h1 {
+
+.content h1 {
   font-size: 60px;
 }
-.container p {
+.content__box-biography {
   padding: 40px 50px 100px 50px;
   font-weight: 5px;
 }
 /* top section till the first p tag*/
-.Symbol {
+.content__box__hobbysymbol {
   display: flex;
   justify-content: center;
   gap: 100px;
-  width: 100%;
 }
 /* top section till the first p tag*/
 
+.content__box__hobbys {
+  background-color: rgba(255, 255, 255, 0.95);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  padding: 40px 0px 40px 0px;
+}
 /*curriculum vitae*/
-.cvhead {
+.content__box-titelcv {
   background-color: white;
   padding: 3px 10px 0px 10px;
   border-radius: 20px 20px 0px 0px;
+  margin-top: 40px;
 }
-.cvcontainer {
-  width: 100%;
-}
-/* WG/Condiinfo start here*/
-.wgbox {
+
+.content__box__wgbox,
+.content__box__conduentbox,
+.content__box__kmabox {
   display: flex;
   background-color: rgb(255, 255, 255);
   width: 100%;
 }
-.tittlewg {
+.content__box__wgbox ul,
+.content__box__conduentbox ul,
+.content__box__kmabox ul {
+  list-style-type: none;
+  padding: 10px 0px 10px 10px;
+}
+
+.content__box__wgbox p,
+.content__box__conduentbox p,
+.content__box__kmabox p {
+  padding: 15px 20px 10px 20px;
+}
+
+.content__box__wgbox_titlewg,
+.content__box__conduentbox__titleConduent,
+.content__box__kmabox__titlekma {
   font-size: 1rem;
   width: 100%;
   flex-shrink: 3;
   border-right: 1px solid rgba(215, 213, 213, 0.539);
 }
-.imgwg {
+.content__box__wgbox__titlewg__imgwg {
   background-image: url(../images/WGlogo.png);
   width: 70px;
   height: 70px;
   background-size: contain;
   margin: 0px 0px 40px 20px;
 }
-.infowg {
+
+.content__box__conduentbox__titleconduent__imgconduent {
+  background-image: url(#);
+  width: 70px;
+  height: 70px;
+  background-size: contain;
+  margin: 0px 0px 40px 20px;
+}
+.content__box__kmabox__titlekma__imgkma {
+  background-image: url(#);
+  width: 70px;
+  height: 70px;
+  background-size: contain;
+  margin: 0px 0px 40px 20px;
+}
+
+.content__box__wgbox__infowg,
+.content__box__conduentbox__titleConduent__infoconduent,
+.content__box__kmabox__titlekma__infokma {
   font-size: 0.9rem;
   width: 100%;
   text-overflow: ellipsis;
   border-bottom: 1px solid rgba(215, 213, 213, 0.539);
 }
-
-.wgbox,
-ul {
-  list-style-type: none;
-  padding-left: 20px;
-  padding-bottom: 20px;
-}
-/*
-.wgbox, li {
-  gap: 3px;
-}
-*/
-.tittleco {
-  font-size: 1rem;
-  width: 100%;
-  flex-shrink: 3;
-  border-right: 1px solid rgba(215, 213, 213, 0.539);
-}
 /* WG /Conduent Kma info End here*/
 /*curriculum vitae end*/
 /*Linkedin and Github button start*/
-.fixlogo {
-  width: auto;
-}
 .buttonlogo {
   display: flex;
   flex-direction: column;
@@ -149,10 +171,12 @@ ul {
 
 .linkedinlogo {
   width: 30px;
+  text-decoration: none;
+  background-color: transparent;
 }
 
 .buttonlogo :hover {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 /*Linkedin and Github button End*/
 footer {
