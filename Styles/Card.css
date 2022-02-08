@@ -1,0 +1,65 @@
+/*.content__box__wgbox,
+  .content__box__conduentbox,
+  .content__box__kmabox */
+.card {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+}
+
+/*.content__box__wgbox ul,
+  .content__box__conduentbox ul,
+  .content__box__kmabox ul */
+.card ul {
+  list-style-type: none;
+  padding: 10px 0px 10px 10px;
+}
+
+/*.content__box__wgbox p,
+  .content__box__conduentbox p,
+  .content__box__kmabox p */
+.card p {
+  padding: 15px 20px 10px 20px;
+}
+
+/*.content__box__wgbox_titlewg,
+  .content__box__conduentbox__titleConduent,
+  .content__box__kmabox__titlekma*/
+.card__title {
+  font-size: 1rem;
+  width: 100%;
+  flex-shrink: 3;
+  border-right: 1px solid rgba(215, 213, 213, 0.539);
+}
+.card__title__image--workgenius {
+  background-image: url(../images/WGlogo.png);
+  width: 70px;
+  height: 70px;
+  background-size: contain;
+  margin: 0px 0px 40px 20px;
+}
+
+.card__title__image--conduent {
+  background-image: url(#);
+  width: 70px;
+  height: 70px;
+  background-size: contain;
+  margin: 0px 0px 40px 20px;
+}
+.card__title__image--kma {
+  background-image: url(#);
+  width: 70px;
+  height: 70px;
+  background-size: contain;
+  margin: 0px 0px 40px 20px;
+}
+
+/*.content__box__wgbox__infowg,
+  .content__box__conduentbox__titleConduent__infoconduent,
+  .content__box__kmabox__titlekma__infokma */
+.card__title__infotext {
+  font-size: 0.9rem;
+  width: 100%;
+  text-overflow: ellipsis;
+  border-bottom: 1px solid rgba(215, 213, 213, 0.539);
+}
